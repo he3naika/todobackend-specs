@@ -1,2 +1,5 @@
 # Ignore npm modules
 node_modules
+
+# npm execution log
+*.log

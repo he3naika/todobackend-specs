@@ -5,7 +5,7 @@ var chai = require('chai'),
     request = require('superagent-promise')(require('superagent'), Promise),
     chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
-var url = process.env.URL || 'http://ec2-34-203-226-77.compute-1.amazonaws.com:8000/todos/';
+var url = process.env.URL || 'http://127.0.0.1:8000/todos/';
 
 describe('Cross Origin Requests', function () {
     var result;
